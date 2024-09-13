@@ -91,3 +91,4 @@ class LoggingRequests:
 
     def put(self, url, *args, **kwargs):
         return self.request('PUT', url, *args, **kwargs)
+    
